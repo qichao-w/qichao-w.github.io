@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🔥 We are the winner of KDD Cup! <a href="https://www.pinterest.com">Link</a>
+🔥 We are the winner of xxx! <a href="https://www.pinterest.com">Link</a>
