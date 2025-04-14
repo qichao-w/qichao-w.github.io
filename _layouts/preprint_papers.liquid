@@ -1,0 +1,9 @@
+<ul class="selected-papers">
+  {% for paper in page.selected_papers %}
+    <li>
+      <strong>{{ paper.title }}</strong><br>
+      <span>{{ paper.author }}</span><br>
+      <a href="{{ paper.link }}" target="_blank">Read more</a>
+    </li>
+  {% endfor %}
+</ul>
