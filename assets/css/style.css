@@ -1,6 +1,6 @@
 .header-container {
     display: flex; /* 使用 Flexbox 实现水平排列 */
     align-items: flex-end; /* 垂直居中对齐 */
-    gap: 30px; /* 设置子元素之间的间距 */
+    gap: 25px; /* 设置子元素之间的间距 */
   }
   
