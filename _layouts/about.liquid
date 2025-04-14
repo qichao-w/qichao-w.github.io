@@ -41,9 +41,9 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        News
-      </h2>
+      <h3>
+        <span class="font-weight-bold">News</span>
+      </h3>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -51,17 +51,17 @@ layout: default
 
     <!-- Latest Preprint -->
     {% if page.selected_papers %}
-      <h2>
-        Preprint
-      </h2>
+      <h3>
+        <span class="font-weight-bold">Preprint</span>
+      </h3>
       {% include preprint_papers.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        Selected Publications
-      </h2>
+      <h3>
+        <span class="font-weight-bold">Selected Publications</span>
+      </h3>
       {% include selected_papers.liquid %}
     {% endif %}
 
@@ -71,3 +71,5 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5f5ba83117de4929b905aadb1473e152"}'></script><!-- End Cloudflare Web Analytics -->
