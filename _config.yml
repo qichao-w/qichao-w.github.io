@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Qichao Wang # the website title (if blank, full name will be used instead)
+title: Qichao Wang's Homepage # the website title (if blank, full name will be used instead)
 first_name: Qichao
 middle_name: 
 last_name: Wang
@@ -12,7 +12,7 @@ description: Master student in Sun Yat-sen University.
 footer_text: ""
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: apple-touch-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: apple-touch-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/) ntu_icon.svg
 
 url: https://qichao-w.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
